@@ -1,8 +1,8 @@
-##查看主板型号
+## 查看主板型号
 dmidecode |grep -A16 "System Information$"
 
- ##内存槽及内存条
- dmidecode |grep -A16 "Memory Device$"
+## 内存槽及内存条
+dmidecode |grep -A16 "Memory Device$"
 
 
 
