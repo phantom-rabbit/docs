@@ -116,3 +116,7 @@ $ vim ~/.lotusminer/config.conf
 $ lotus-miner run
 ```
 好了检查日志，没有报错就算启动成功啦，等待窗口挑战
+
++ 很不幸时空证明出错了。
+![image](https://user-images.githubusercontent.com/49083897/130017115-00e5f259-6a7b-46da-a1fd-dda078acaa2c.png)
+
