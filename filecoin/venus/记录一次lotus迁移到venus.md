@@ -83,9 +83,15 @@ $ git clone https://github.com/ipfs-force-community/lotus
 $ git checkout v1.10.1_incubation
 $ cd lotus
 $ go mod tidy
-$ go get github.com/google/flatbuffers@v2.0.0
 $ RUSTFLAGS="-C target-cpu=native -g" FFI_BUILD_FROM_SOURCE=1 make
 ```
++ 编译遇到以下错误需要执行 go get github.com/google/flatbuffers@v2.0.0 重新编译
+![image](https://user-images.githubusercontent.com/49083897/130016951-23422e1c-1dbf-4445-94c0-ef3ab7d739ff.png)
+
++ 启动遇到以下错误需要指定golang 版本为1.16重新编译
+![image](https://user-images.githubusercontent.com/49083897/130016735-c17fed91-878a-42e6-a315-9a04e0d9cce4.png)
+
+
 ###### 编译好之后先停掉lotus-miner(注意窗口期)
 ###### 修改lotus-miner 配置文件
 ```
